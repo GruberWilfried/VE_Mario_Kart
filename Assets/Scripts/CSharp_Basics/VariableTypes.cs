@@ -8,9 +8,7 @@ public class VariableTypes : MonoBehaviour
     public int myValue;
     public int newValue;
     public float floatValue;
-    public string stringValue;
-    // Formal gesehen ein Reference Type
-    // verhält sicher aber wie ein value Type
+    public string stringValue; // Formal gesehen ein Reference Type verhält sicher aber wie ein value Type
     public bool boolValue;
     public Vector3 vec;
     public Quaternion quat;
