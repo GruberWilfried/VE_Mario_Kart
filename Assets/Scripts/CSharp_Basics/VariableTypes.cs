@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class VariableTypes : MonoBehaviour
 {
     // Value Type
@@ -11,7 +12,7 @@ public class VariableTypes : MonoBehaviour
     public string stringValue; // Formal gesehen ein Reference Type verhält sicher aber wie ein value Type
     public bool boolValue;
     public Vector3 vec;
-    public Quaternion quat;
+    public Quaternion quat; // Hat 4 float Werte und wird für Rotation verwendet
     public Color col;
 
 
@@ -29,7 +30,8 @@ public class VariableTypes : MonoBehaviour
     public Mesh mesh;
     public SpriteRenderer rend;
     public Renderer rend1;
-    public VariableTypes var;
+    public VariableTypes x;
+
     // ...............
 
     private void Start()

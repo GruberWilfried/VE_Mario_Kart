@@ -59,6 +59,7 @@ public class CarController : MonoBehaviour
 
     public void Test()
     {
+        
         Debug.Log("Test");
     }
 }
