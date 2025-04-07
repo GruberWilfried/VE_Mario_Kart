@@ -26,4 +26,14 @@ public class SpeedModifier : MonoBehaviour
         Destroy(gameObject);
 
     }
+
+    private void OnCollisionExit(Collision collision)
+    {
+        
+    }
+
+    private void OnCollisionStay(Collision collision)
+    {
+        
+    }
 }
