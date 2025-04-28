@@ -21,14 +21,4 @@ public class SpeedModifier : MonoBehaviour
             myPlayer.PlayOneShot(mySound);
         }
     }
-
-    private void OnCollisionExit(Collision collision)
-    {
-        
-    }
-
-    private void OnCollisionStay(Collision collision)
-    {
-        
-    }
 }

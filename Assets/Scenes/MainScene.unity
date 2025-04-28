@@ -479,7 +479,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &849588103
 Transform:
   m_ObjectHideFlags: 0
@@ -489,8 +489,8 @@ Transform:
   m_GameObject: {fileID: 849588102}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 8.8, z: 0}
-  m_LocalScale: {x: 4.134579, y: 4.134579, z: 4.134579}
+  m_LocalPosition: {x: 2.3, y: 8.8, z: 0}
+  m_LocalScale: {x: 7.341313, y: 7.341313, z: 7.341313}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2092145092}
@@ -534,6 +534,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1525654876201361214, guid: 6d1aee8cc42e69f49905ad93434e8332, type: 3}
+      propertyPath: speed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1525654876201361214, guid: 6d1aee8cc42e69f49905ad93434e8332, type: 3}
       propertyPath: rotateSpeed
       value: 0.3
       objectReference: {fileID: 0}
@@ -548,6 +552,10 @@ PrefabInstance:
     - target: {fileID: 5216883412672035824, guid: 6d1aee8cc42e69f49905ad93434e8332, type: 3}
       propertyPath: m_Name
       value: Player (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5216883412672035824, guid: 6d1aee8cc42e69f49905ad93434e8332, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 7925957863103216338, guid: 6d1aee8cc42e69f49905ad93434e8332, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -646,6 +654,14 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 15037b75bc717d14d8aa358ab1dc2b8e, type: 2}
+    - target: {fileID: 1504993107328065820, guid: 6d1aee8cc42e69f49905ad93434e8332, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1525654876201361214, guid: 6d1aee8cc42e69f49905ad93434e8332, type: 3}
+      propertyPath: speed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1525654876201361214, guid: 6d1aee8cc42e69f49905ad93434e8332, type: 3}
       propertyPath: backKey
       value: 115
@@ -677,6 +693,10 @@ PrefabInstance:
     - target: {fileID: 5216883412672035824, guid: 6d1aee8cc42e69f49905ad93434e8332, type: 3}
       propertyPath: m_Name
       value: Player (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5216883412672035824, guid: 6d1aee8cc42e69f49905ad93434e8332, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 7682849894858377291, guid: 6d1aee8cc42e69f49905ad93434e8332, type: 3}
       propertyPath: m_Materials.Array.data[0]
