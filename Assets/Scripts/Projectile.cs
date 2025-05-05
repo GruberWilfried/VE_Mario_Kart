@@ -8,7 +8,13 @@ public class Projectile : MonoBehaviour
     {
         if (collision.gameObject.GetComponent<CarController>() != null)
         {
-            Destroy(collision.gameObject);
+            CarController car = collision.gameObject.GetComponent<CarController>();
+            car.health -= 1;
+            if (car.health == 0)
+            {
+                Destroy(collision.gameObject);
+            }
+            
         }
 
     }

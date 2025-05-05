@@ -8,6 +8,7 @@ public class CarController : MonoBehaviour
     public Rigidbody manualRb;
     public float speed = 20;
     public float rotateSpeed = 3;
+    public int health;
     public KeyCode forwardKey;
     public KeyCode backKey;
     public KeyCode leftKey;

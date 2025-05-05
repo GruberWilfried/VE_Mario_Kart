@@ -212,6 +212,37 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1609638871364559367
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2468142130765569616}
+  m_Layer: 0
+  m_Name: SpawnPos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2468142130765569616
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1609638871364559367}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.37, z: 3.03}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9093606146144263149}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1765984526948929018
 GameObject:
   m_ObjectHideFlags: 0
@@ -530,6 +561,7 @@ GameObject:
   - component: {fileID: 1504993107328065820}
   - component: {fileID: 186915276304312934}
   - component: {fileID: 1525654876201361214}
+  - component: {fileID: 660477776096061632}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -555,6 +587,7 @@ Transform:
   - {fileID: 8773864227619083445}
   - {fileID: 4980886033444548011}
   - {fileID: 6664131750644121838}
+  - {fileID: 2468142130765569616}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &6673349756060278375
@@ -672,9 +705,26 @@ MonoBehaviour:
   manualRb: {fileID: 186915276304312934}
   speed: 20
   rotateSpeed: 3
+  health: 0
   forwardKey: 273
   backKey: 274
   leftKey: 276
   rightKey: 275
   jumpkey: 256
   transform: {fileID: 9093606146144263149}
+--- !u!114 &660477776096061632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5216883412672035824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e48c8e48e6ddd204481324198991f449, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shootForce: 2000
+  shootKey: 116
+  projectile: {fileID: 5388060033053709539, guid: ae14ca68025b79b48933a5463d01bd39, type: 3}
+  spawnPos: {fileID: 0}
